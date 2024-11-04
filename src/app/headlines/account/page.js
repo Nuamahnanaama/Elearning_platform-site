@@ -4,7 +4,7 @@ import Image from "next/image";
 import logo from "../../../Components/Images/Logo.png";
 import Footer from "@/Components/Footer";
 import { useRouter } from "next/navigation";
-const page = () => {
+const Page = () => {
   const router =useRouter();
    
   const handleclick=()=>{
@@ -130,4 +130,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

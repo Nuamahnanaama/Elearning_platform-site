@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import logo from "../../../Components/Images/Logo.png"
 import { useRouter } from 'next/navigation'
-const page = () => {
+const Page = () => {
   const router = useRouter();
    
   const handleclicks=()=>{
@@ -82,4 +82,4 @@ const page = () => {
   ) 
 }
 
-export default page
+export default Page

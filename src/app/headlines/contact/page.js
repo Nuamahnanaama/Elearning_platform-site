@@ -1,11 +1,11 @@
 "use client"
-import React, { useReducer } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import logo from "../../../Components/Images/Logo.png"
 import contact from "../../../Components/Images/contact-us.jpg"
 import Footer from '@/Components/Footer'
 import { useRouter } from 'next/navigation'
-const page = () => {
+const Page = () => {
 
   const router = useRouter();
    
@@ -146,4 +146,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 
 
 
-const page = () => {
+const Page = () => {
   const router = useRouter();
   const handleclick=()=>{
     router.push ("/");
@@ -497,4 +497,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
